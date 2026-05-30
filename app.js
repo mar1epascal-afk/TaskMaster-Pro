@@ -8,6 +8,7 @@ let currentUser = JSON.parse(localStorage.getItem("currentUser")) || null;
 function showLogin() {
     document.getElementById("loginForm").style.display = "block";k
     document.getElementById("registerForm") .style.display = "none";
+     alert(document.getElementById("registerForm").style.display);
 }
 
 function showRegister() {
