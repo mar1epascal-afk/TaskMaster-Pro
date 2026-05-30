@@ -6,8 +6,8 @@ let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 let currentUser = JSON.parse(localStorage.getItem("currentUser")) || null;
 
 function showLogin() {
-    document.getElementById("loginForm").style.display = "block";
-    document.getElementById("registerForm") in.style.display = "none";
+    document.getElementById("loginForm").style.display = "block";k
+    document.getElementById("registerForm") .style.display = "none";
 }
 
 function showRegister() {
